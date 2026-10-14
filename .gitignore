@@ -1,1 +1,14 @@
-6z
+# Jupyter
+.ipynb_checkpoints
+
+# ignore ALL .log files
+*.log
+*__pycache__*
+*.pyc
+
+# ignore ALL files in ANY directory named temp
+temp/ 
+code/logs
+code/experiments/logs
+code/messageClient/logs**/.DS_Store
+.DS_Store
