@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset or project in your research, please cite it as below."
+title: "Cardiovascular ML Pipeline & Docker-Based Modeling"
+authors:
+  - family-names: "Jishan"
+    given-names: "Md Asifuzzaman"
+    orcid: "https://orcid.org/0000-0001-9540-5614"
+  - family-names: "Tanvir"
+    given-names: "Muhammad Farhan"
+   
+version: "1.0"
+date-released: "2024-12-31"
+url: "https://github.com/jishan900/cardiovascular-ml-docker-pipeline"
+doi: 
+license: "MIT" 

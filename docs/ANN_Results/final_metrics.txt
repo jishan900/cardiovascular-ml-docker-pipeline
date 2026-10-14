@@ -1,0 +1,38 @@
+Final Metrics
+{
+  "epochs_trained": 50,
+  "final_train_loss": 1.0270984172821045,
+  "final_train_accuracy": 0.6494070291519165,
+  "final_val_loss": 0.6679399013519287,
+  "final_val_accuracy": 0.6911447048187256,
+  "test_accuracy": 0.7112231021518278,
+  "features_used": [
+    "age",
+    "gender",
+    "height",
+    "weight",
+    "ap_hi",
+    "ap_lo",
+    "cholesterol",
+    "gluc",
+    "smoke",
+    "alco",
+    "active"
+  ],
+  "dropped_columns": [
+    "id",
+    "bmi",
+    "risk_score"
+  ],
+  "model_file": "/Users/jishan/Documents/AIBAS_Heart-Disease-Predictor/documentation/ANN_Results/currentAiSolution.keras"
+}
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0     0.6699    0.8300    0.7414      6235
+           1     0.7781    0.5930    0.6731      6266
+
+    accuracy                         0.7112     12501
+   macro avg     0.7240    0.7115    0.7072     12501
+weighted avg     0.7241    0.7112    0.7072     12501
